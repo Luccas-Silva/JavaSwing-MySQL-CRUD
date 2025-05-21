@@ -48,12 +48,16 @@ Para executar este projeto, siga os seguintes passos:
     * O driver MySQL Connector/J deve estar adicionado ao projeto como uma dependência.
     * Um banco de dados MySQL chamado `cadastro_clientes` deve ter sido criado, contendo uma tabela chamada `cliente` com a seguinte estrutura:
         ```sql
+      CREATE DATABASE cadastro_clientes;
+
+       USE cadastro_clientes;
+
         CREATE TABLE cliente (
             id INT AUTO_INCREMENT PRIMARY KEY,
-            nome VARCHAR(255) NOT NULL,
+            nome VARCHAR(100) NOT NULL,
             cpf VARCHAR(14) UNIQUE NOT NULL,
-            telefone VARCHAR(15),
-            email VARCHAR(255) NOT NULL
+            telefone VARCHAR(20),
+            email VARCHAR(100)
         );
         ```
 
