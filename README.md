@@ -2,18 +2,18 @@
 
 Este documento visa fornecer uma visão geral do projeto e suas funcionalidades. Para detalhes de implementação, consulte o código fonte.
 
-## 1. Objetivo do Projeto
+## Objetivo do Projeto
 
 O principal objetivo deste projeto é criar uma aplicação de interface gráfica de usuário (GUI) simples para gerenciar o cadastro de clientes. A aplicação implementa as operações básicas de CRUD (Criar, Ler/Buscar, Atualizar e Deletar) e armazena as informações em um banco de dados MySQL.
 
-## 2. Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 * **Linguagem de Programação:** Java
 * **Interface Gráfica:** Swing (Java Swing Components)
 * **Banco de Dados:** MySQL
 * **IDE de Desenvolvimento:** IntelliJ IDEA 
 
-## 3. Funcionalidades Implementadas
+## Funcionalidades Implementadas
 
 A aplicação de Cadastro de Clientes implementa as seguintes funcionalidades básicas de CRUD:
 
@@ -37,7 +37,7 @@ As seguintes funcionalidades extras foram implementadas neste projeto:
     * As ações de Inserir, Alterar e Deletar exibem uma caixa de diálogo de confirmação antes de serem executadas.
 
 
-## 6. Instruções de Execução
+## Instruções de Execução
 
 Para executar este projeto, siga os seguintes passos:
 
